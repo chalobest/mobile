@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/routeslayout"
+	android:layout_width="fill_parent"
+	android:background="#ffffff"
+	android:layout_height="fill_parent" >
+	
+	<LinearLayout
+		android:id="@+id/linearlayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp">
+		<TextView 
+		android:id="@+id/search_for"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:textSize="18sp"
+        android:background="#d2d2d2"
+		android:textColor="#070707"/>
+	</LinearLayout>
+	<LinearLayout
+	android:id="@+id/linearlayout2"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop = "5dp"
+	android:layout_below="@id/linearlayout1">
+		
+		<ListView
+		  android:id="@+id/routinglist"
+		  android:label="Buses"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:scrollY="0dp"
+		  android:background="#ffffff"
+		  android:dividerHeight="0dp"
+		  android:scrollbarSize="0dp"
+		  android:fastScrollEnabled="false"
+		  android:scrollbars="none"
+		  />
+		
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/txtmyroute"
+	android:layout_width="200dp"
+	android:layout_height="wrap_content"
+	android:gravity = "center"
+	android:singleLine = "true"
+	android:text="@+string/myroute"
+	android:textStyle="bold"
+	android:textSize="20sp"
+	android:background = "#999999"
+	android:textColor="#fb0300"/>
+		

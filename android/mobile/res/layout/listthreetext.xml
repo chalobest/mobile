@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/linearlayoutlist1"
+	android:label="Somelabel" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:background="@drawable/listbackgrnd"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView 
+		android:id="@+id/stopname"
+	    android:layout_width="0dp"
+		android:layout_weight="0.75"
+	    android:layout_height="wrap_content"
+	    android:textSize="16sp"
+		android:gravity = "left"
+	    android:textColor="#4a81af">
+	</TextView>
+	<TextView 
+		android:id="@+id/dep"
+	    android:layout_width="0dp"
+		android:layout_weight="0.25"
+		android:text = ""
+		android:gravity = "right"
+	    android:layout_height="wrap_content"
+	    android:textColor="#5a5858">
+	</TextView>
+</LinearLayout>	
+<!--	    android:padding="10dp"-->

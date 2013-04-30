@@ -1,0 +1,21 @@
+<project name="Ofuscator" default="build" basedir="./ZipGen">
+	<property name="src" value="${basedir}/src" />
+	<property name="classes" value="${basedir}/classes" />
+	<property name="destjar" value="${basedir}/bin/zipgen.jar" />
+	
+	<target name="build" depends="compile,jar" />
+	
+	<target name="compile">
+		<javac srcdir="${src}" destdir="${classes}" target="1.4"></javac>
+	</target>
+	
+	<target name="jar">
+		<jar destfile="${destjar}" basedir="${classes}" manifest="${src}/manifest" />
+	</target>
+	
+	<target name="clean">
+		<delete dir="${basedir}/classes/" includes="**/*" />
+		<delete dir="${basedir}/bin/" includes="**/*" />
+	</target>
+
+</project>

@@ -1,0 +1,1 @@
+ java -classpath "D:\dev\transportation\convertGTFSFreq\bin\convert_gtfs_freq.jar;D:\dev\transportation\convertGTFSFreq\lib\opencsv-2.3.jar" gtfs.conv.CMain F frequencies.csv

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/linearlayoutlist"
+	android:label="Somelabel" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="0dp"
+	android:background="@drawable/listbackgrnd"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout
+	android:id="@+id/linearlayoutlist1"
+	android:layout_width="fill_parent"
+	android:orientation="horizontal"
+	android:padding="10dp"
+	android:layout_height="wrap_content">
+	<TextView 
+		android:id="@+id/stopname"
+	    android:layout_width="0dp"
+		android:layout_weight="0.75"
+	    android:layout_height="wrap_content"
+	    android:textSize="16sp"
+		android:gravity = "left"
+	    android:textColor="#4a81af">
+	</TextView>
+	<TextView 
+		android:id="@+id/dep"
+	    android:layout_width="0dp"
+		android:layout_weight="0.25"
+		android:text = ""
+		android:gravity = "right"
+	    android:layout_height="wrap_content"
+	    android:textColor="#5a5858"
+		android:paddingBottom="15dp">
+	</TextView>
+	</LinearLayout>	
+	<LinearLayout
+	android:id="@+id/linearlayoutlist2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/linearlayoutlist1">
+	
+	<TextView 
+		android:id="@+id/stoproad"
+	    android:layout_width="0dp"
+		android:layout_weight="0.7"
+		android:paddingLeft="10dp"
+		android:gravity = "left"
+	    android:layout_height="wrap_content"
+	    android:textColor="#5a5858">
+	</TextView>
+	
+	<TextView 
+		android:id="@+id/stoparea"
+	    android:layout_width="0dp"
+		android:layout_weight="0.3"
+		android:paddingRight="10dp"
+		android:gravity = "right"
+	    android:layout_height="wrap_content"
+	    android:textColor="#5a5858">
+	</TextView>
+	</LinearLayout>	
+</LinearLayout>	
+<!--	    android:padding="10dp"-->

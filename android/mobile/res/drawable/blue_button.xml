@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="false">        
+        <shape>
+            <gradient
+                android:startColor="#b6b4b6"
+				android:endColor="#b6b4b6"
+				android:centerColor="#ebebeb"
+                android:angle="270" />
+           <stroke
+                android:width="2dp"
+                android:color="#b4b5b4" />
+            <corners
+                android:radius="25dp" />
+            <padding
+                android:left="20dp"
+                android:top="10dp"
+                android:right="20dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+	<item android:state_pressed="true"
+	 android:drawable="@drawable/focused_application_background_static" />
+	<item android:state_focused="true"
+         android:drawable="@drawable/focused_application_background_static" />
+</selector>

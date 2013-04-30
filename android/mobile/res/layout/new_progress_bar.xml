@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:orientation="vertical"
+    android:layout_height="fill_parent" >
+ 
+<LinearLayout  android:id="@+id/layout_root" android:orientation="vertical"
+ android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dp">
+
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"  >
+ <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"  >
+	 <TextView
+        android:id="@+id/title" android:layout_width="fill_parent"    android:layout_height="wrap_content"   android:textColor="#FFF"
+            android:layout_toRightOf="@+id/image" 	android:textSize = "19sp"/>
+</LinearLayout>	
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"  >		
+     <ProgressBar android:layout_centerVertical="true" android:id="@+id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="25dip" android:minWidth="25dip" android:maxHeight="25dip" android:minHeight="25dip" android:layout_marginRight="6dip" android:indeterminate="true" />
+	 <TextView
+        android:id="@+id/text" android:layout_width="fill_parent"    android:layout_height="25dip"   android:textColor="#FFF"
+            android:layout_toRightOf="@+id/image" 	android:textSize = "17sp" android:layout_gravity="center"/>
+     </LinearLayout>
+      
+   </LinearLayout> 
+	
+  <!--ProgressBar android:id="@+id/progressbar" android:layout_width="100dp" android:layout_height="100dp"
+   android:paddingTop="20dp" android:paddingBottom="20dp" /-->
+
+
+  <RelativeLayout  android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dp">
+  
+  <TextView android:id="@+id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFF" 
+android:layout_alignParentLeft="true" /> 
+ 
+ <TextView android:id="@+id/text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#FFF"
+ android:layout_alignParentRight="true" /> 
+  
+  </RelativeLayout>
+  
+  </LinearLayout>
+  </RelativeLayout>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chalo BEST</string>
+    <string name="M_FIND_TAB_ID">find</string>
+    <string name="M_ROUT_TAB_ID">route</string>
+    <string name="fromListTitle">Select Your Start Location</string>
+    <string name="toListTitle">Select Destination</string>
+    <string name="nearByListTitle">Nearby Stops:</string>
+    <string name="sourceHint"> सुरवात eg:churchgate</string>
+    <string name="destinationHint">शेवट eg:fort</string>
+    <string name="findBtnText">F</string>
+    <string name="nearbyBtnText">N</string>
+    <string name="findBusText">Find Bus</string>
+    <string name="busListHead">Search Result</string>
+    <string name="inittext">Initializing Application for the first time...</string>
+    <string name="errMsgMoreChar">कृपया थोडे अजून अक्षरे टाका ..</string>
+
+    <string name="errMsgEnterSrcLoc">कृपया सुरुवातीचे ठिकाण लिहा   </string>
+    <string name="errMsgEnterDestLoc">कृपया तुमचे शेवटचे ठिकाण टाका </string>
+    <!--string name="errMsgEnterDestLoc">please enter the destination location</string-->
+    <string name="errMsgEnterValidDest">कृपया अस्थित्वात असलेले शेवटीचे ठिकाण टाका </string>
+    <string name="errMsgEnterValidSrc">कृपया अस्थित्वात असलेले सुरुवातीचे  ठिकाण टाका </string>
+    <string name="errMsgNoStopsMatch">ह्या नावाचे स्थानक उपलब्द नाही </string>
+    <string name="errMsgNoBusMatch">ह्या नावाची  बस  उपलब्द नाही</string>
+    <string name="errMsgNoNearbyStop">जवळ कोणतेही बस स्थानक मिळाले नाही </string>
+    <string name="noLocation">No such Location</string>
+    <string name="errNoMap">माफ करा ,ह्या वेळेस नकाशा दाखवू शकत नाही </string>
+    <string name="buses">Buses</string>
+    <string name="stops">stops</string>
+    <string name="search">मार्ग  शोधा </string>
+    <string name="myroute">My Route</string>
+    <string name="previoussearch">Previous Searches:</string>
+    <string name="nearbytext">Near by passing buses :</string>
+    <string name="txtSearchFor">शोधा :</string>
+    <string name="StopNameHeading">Stop Name</string>
+    <string name="txtsearch">Search</string>
+    <string name="txtWorkInProgress">Work in progress...</string>
+    <string name="txtMap">मेपं </string>
+    <string name="txtSelectSource">Select as Source</string>
+    <string name="txtSelectDest">Select as Destination</string>
+    <string name="txtSmthingWentWrong">Sorry...Something went wrong...</string>
+    <string name="lnfrser">शोधत आहे ...</string>
+    <string name="lnfrserb">शोध्ताना कृपया वाट पहा </string>
+    <string name="chalobest">चलो बेस्ट </string>
+    <string name="sorry_somthng_went_wrong">माफ करा काही तरी चुकले </string>
+    <string name="No_route_between_Source_and_Destination">माफ करा काही तरी चुकले </string>
+    <string name="processing">काम चालू आहे</string>
+    <string name="please_wait"> कृपया थांबा ..</string>
+    <string name="loading"> माहिती येत आहे </string>
+    <string name="searching">शोधत आहे ..</string>
+    <string name="please_wait_while_seacrching">शोधताना वाट पाहा </string>
+    <string name="Thier_are_no_routes_to_show"> मार्ग उपलब्ध नाही  </string>
+    <string name="service">सार्वेस </string>
+    <string name="gps_network_not_workngs">सार्वेस </string>
+    <string name="exception">अक्क्सेप्ष्ण </string>
+    <string name="message">माहिती  </string>
+    <string name="error">चूक  </string>
+    <string name="are_you_exit">खरोकर तुम्हाला बाहेर निघायचे आहे का ?</string>
+    <string name="yes">हो </string>
+    <string name="no">नाही</string>
+    <string name="search_on_but">शोधा</string>
+    <string name="ok">चालेल </string>
+    <string name="searchresultfor">चालेल </string>
+</resources>
+

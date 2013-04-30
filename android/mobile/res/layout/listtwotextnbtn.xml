@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/mainlinearlayout"
+	android:label="Somelabel1" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="5dp"
+	android:gravity="center_vertical"
+	android:background="@drawable/listbackgrnd"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<LinearLayout
+	android:id="@+id/innerlinearlayout"
+	android:label="Somelabel1" 
+	android:layout_width="0dp"
+	android:layout_weight="0.8"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	
+	<TextView 
+		android:id="@+id/stopname"
+		android:layout_width="fill_parent"
+		android:layout_height="0dp"
+		android:textSize="16sp"
+		android:gravity="center_vertical"
+		android:layout_weight="0.7"
+		android:textColor="#4a81af"/>
+	<LinearLayout
+		android:id="@+id/innerlinearlayout1"
+		android:label="Somelabel1" 
+		android:layout_height="0dp"
+		android:layout_width="fill_parent"
+		android:layout_weight="0.3"
+		android:orientation="horizontal"
+		android:layout_below="@+id/stopname">
+		<TextView 
+			android:id="@+id/stopRoad"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.7"
+			android:textSize="14sp"
+			android:textColor="#5a5858"/>
+			
+		<TextView 
+			android:id="@+id/stopArea"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="0.3"
+			android:textSize="14sp"
+			android:gravity="right"
+			android:textColor="#5a5858"/>
+		</LinearLayout>
+	</LinearLayout>
+	<Button
+		android:id="@+id/map"
+		android:layout_width="0dp"
+		android:layout_weight="0.2"
+		android:layout_height="50dp"
+		android:text="@string/txtMap" />	
+</LinearLayout>
+	<!--android:background="@android:drawable/editbox_background"  android:layout_alignParentBottom="true"   android:paddingTop="10dp"-->

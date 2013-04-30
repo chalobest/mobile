@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/linearlayoutlist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/listbackgrnd" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+    android:id="@+id/innerlinearlayoutlist1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp">
+
+        <ImageView
+                android:id="@+id/commImage"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bus_blue_small"
+                android:background="@null"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+        <!--android:layout_weight="0.1"-->
+
+
+        <TextView
+                android:id="@+id/Legname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:paddingLeft="0dp"
+                android:textColor="#5a5858"/>
+        <!--android:layout_weight="0.9"-->
+        <!--TextView
+              android:id="@+id/routename"
+              android:layout_width="0dp"
+              android:layout_weight="0.15"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text="towards"
+              android:textSize="12sp"
+              android:paddingLeft="0dp"
+              android:textColor="#5a5858"/-->
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/innerlinearlayoutlist2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:weightSum="1"
+    android:gravity="left"
+    android:layout_below="@+id/innerlinearlayoutlist1">
+
+        <TextView
+              android:id="@+id/Legstarttime"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:gravity="left"
+              android:textSize="14sp"
+            android:layout_weight="0.2"
+              android:textColor="#5a5858"/>
+        <!--android:paddingLeft="10dp"-->
+             <!-- android:layout_weight="0.8"-->
+        <TextView
+                android:id="@+id/depart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="17sp"
+               android:textColor="#4a81af"
+                android:layout_weight="0.2"
+                android:text="Depart"/>
+       <!-- android:paddingLeft="10dp"-->
+
+            <TextView
+             android:id="@+id/legfromname"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:gravity="left"
+             android:textSize="14sp"
+            android:layout_weight="0.6"
+             android:textColor="#5a5858"/>
+        <!--android:paddingLeft="10dp"-->
+        <!--android:layout_weight="0.35"-->
+    </LinearLayout>
+
+    <LinearLayout
+             android:id="@+id/innerlinearlayout"
+             android:layout_width="fill_parent"
+             android:gravity="left"
+             android:layout_height="wrap_content"
+             android:weightSum="1"
+             android:orientation="horizontal">
+                 <!--android:layout_weight="0.3"-->
+             <!--ImageView
+             android:id="@+id/busBlue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/freq"
+             android:background="@null"/-->
+                 <TextView
+                         android:id="@+id/legendtime"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:gravity="left"
+                         android:textSize="14sp"
+                            android:layout_weight="0.2"
+                         android:textColor="#5a5858"/>
+                 <!--android:paddingLeft="10dp"-->
+                 <!--android:layout_weight="0.35"-->
+                 <TextView
+                         android:id="@+id/arrive"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:gravity="left"
+                         android:textSize="17sp"
+                         android:layout_weight="0.2"
+                         android:textColor="#4a81af"
+                         android:text="Arrive"/>
+                 <!--android:paddingLeft="10dp"-->
+
+             <TextView
+             android:id="@+id/legtoname"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:gravity="left"
+             android:layout_weight="0.6"
+            android:textColor="#5a5858"/>
+                 <!--android:paddingLeft="12dp"-->
+             </LinearLayout>
+
+     </LinearLayout>
+
+<!--/LinearLayout-->
+

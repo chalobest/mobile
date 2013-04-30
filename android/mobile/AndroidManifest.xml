@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.best.ui"
+          android:versionCode="5"
+          android:versionName="3.2">
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/bestlogo"  >
+        <activity android:name="Best" android:theme="@style/Theme.Transparent"
+                  android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainTab" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden"/>
+        <activity android:name="SplashScreen1" android:theme="@style/Theme.Transparent"  android:configChanges="orientation|keyboardHidden" android:clearTaskOnLaunch="true" >
+        </activity>
+        <activity android:name="Find" android:configChanges="orientation|keyboardHidden" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true"/>
+        <!--<activity android:name="NearTripRoute" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" />
+          <activity android:name="Routing" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" />-->
+        <activity android:name="Routes" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="Otpdescdetail" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden"  />
+        <activity android:name="Map" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="ListLocation" android:theme="@android:style/Theme.Dialog" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden" />
+        <activity android:name="Search" android:theme="@android:style/Theme.Dialog" android:clearTaskOnLaunch="true" android:configChanges="orientation|keyboardHidden"  />
+        <activity android:name="Buses" android:theme="@android:style/Theme.NoTitleBar" android:configChanges="orientation|keyboardHidden" android:clearTaskOnLaunch="true"  />
+        <activity android:name="Stops" android:theme="@android:style/Theme.NoTitleBar" android:configChanges="orientation|keyboardHidden" android:clearTaskOnLaunch="true" />
+        <activity android:name="EmptyActivity" android:theme="@android:style/Theme.NoTitleBar" android:clearTaskOnLaunch="true"  android:configChanges="orientation|keyboardHidden"/>
+        <!--<activity android:name="TabGroup1Activity"></activity>
+          <activity android:name="TabGroup2Activity"></activity>-->
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-sdk android:minSdkVersion="4"
+              android:targetSdkVersion="8"
+              android:maxSdkVersion="11" />
+</manifest>

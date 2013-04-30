@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:orientation="vertical"
+  android:layout_gravity="center"
+  android:id="@+id/TheSplashLayout"
+  >
+    <ImageView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:id="@+id/SplashImageView"
+        android:layout_gravity="center"        
+        android:src="@drawable/bestlogo" >
+    </ImageView>
+		
+	<TextView 
+		android:id="@+id/msgtxt"
+		android:layout_width="wrap_content"
+		android:layout_height="40dp"
+		android:paddingTop="15dp"
+		android:text="@+string/inittext"
+		android:layout_gravity="center"
+		android:background="#000000"
+		android:textColor="#f9f9f9"
+		android:layout_below="@id/SplashImageView"/>
+		
+</LinearLayout>
+ 

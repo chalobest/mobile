@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/routeslayout"
+	android:layout_width="fill_parent"
+	android:background="#ffffff"
+	android:layout_height="fill_parent" >
+	
+	<LinearLayout
+	android:id="@+id/linearlayout2"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_below="@id/linearlayout1">
+		
+		<ListView
+		  android:id="@+id/stopslist"
+		  android:label="Buses"
+		  android:background="#efefef"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent"
+		  android:scrollY="0dp"
+		  android:dividerHeight="0dp"
+		  android:scrollbarSize="0dp"
+		  android:fastScrollEnabled="false"
+		  android:scrollbars="none"
+		  />
+		
+	</LinearLayout>
+</RelativeLayout>

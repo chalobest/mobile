@@ -1,0 +1,21 @@
+<project name="convertGTFSFreq" default="build" basedir=".">
+	<property name="src" value="${basedir}/src" />
+	<property name="classes" value="${basedir}/classes" />
+	<property name="destjar" value="${basedir}/bin/convert_gtfs_freq.jar" />
+	
+	<target name="build" depends="compile,jar" />
+	
+	<target name="compile">
+		<javac srcdir="${src}" destdir="${classes}" target="1.5" classpath="${basedir}/lib/opencsv-2.3.jar"> </javac>
+	</target>
+	
+	<target name="jar">
+		<jar destfile="${destjar}" basedir="${classes}" manifest="${src}/manifest" />
+	</target>
+	
+	<target name="clean">
+		<delete dir="${basedir}/classes/" includes="**/*" />
+		<delete dir="${basedir}/bin/" includes="**/*" />
+	</target>
+
+</project>
